@@ -68,11 +68,16 @@ FIREBASE_PRIVATE_KEY=your-private-key
 
 # OpenAI Configuration
 OPENAI_API_KEY=your-openai-api-key
+# News API Configuration
+NEWS_API_KEY=your-news-api-key
+# Optional base URL for the news API
+NEWS_API_BASE_URL=https://newsapi.org/v2/top-headlines
 ```
 
 ## API Endpoints
 
 - `GET /status` - Check if the service is running
+- `GET /news` - Returns the latest news articles (title and summary)
 
 ## License
 
