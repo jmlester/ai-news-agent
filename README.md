@@ -28,6 +28,17 @@ An AI-powered news agent that fetches, processes, and delivers news using OpenAI
 - `npm run dev` - Start the development server with hot-reload
 - `npm test` - Run tests (not implemented yet)
 
+## Mobile App
+
+The `mobile` directory contains a React Native application using Expo.
+To run the mobile app:
+
+```bash
+cd mobile
+npm install
+npm start
+```
+
 ## Project Structure
 
 ```
@@ -35,6 +46,7 @@ ai-news-agent/
 ├── src/
 │   ├── index.js          # Main application entry point
 │   └── firebaseClient.js # Firebase client configuration
+├── mobile/               # React Native mobile application
 ├── .env.example          # Example environment variables
 ├── package.json          # Project dependencies and scripts
 └── README.md             # This file
